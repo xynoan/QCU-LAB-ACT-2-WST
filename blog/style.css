@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background: #000;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links>li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links>li>a {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-size: 15px;
+}
+
+.nav_links>li>a:hover {
+    color: red;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* content */
+
+img {
+    width: 70%;
+    margin: 30px;
+    border: 2px solid #000;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.container>.title, .fastcompany {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.container>.left {
+    width: 70%;
+}
+
+.container>.left>.blog_paragraphs {
+    margin-top: 10px;
+}
+
+.container>.right {
+    width: 30%;
+}
+
+.container>.right>.contents>p>a {
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.container>.right>.contents>p>a:hover {
+    color: red;
+}
+
+.container>.right>.contents>.contents_title {
+    text-decoration: underline;
+}
+
+.container>.right>img {
+    margin: 30px 0 0 0;
+    width: 100%;
+    height: 15%;
+    box-shadow: none;
+}
+
+.container>.right>.contents {
+    border: 2px solid #000;
+}
+
+.container>.right>.after_content {
+    margin-top: 10px;
+    height: 100%;
+}
